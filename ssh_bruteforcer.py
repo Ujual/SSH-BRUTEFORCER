@@ -42,7 +42,7 @@ def main():
                         print(colored('[+] Password Found: ' + password, 'green'))
                         send_command(child,'whoami')
                 except:
-                        print(colored('[-] Wrong Password' + password, 'red'))
+                        print(colored('[-] Wrong Password ' + password, 'red'))
 
 main()
 
